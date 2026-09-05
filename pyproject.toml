@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trivian-sutra"
+version = "1.0.0"
+description = "Machine-readable Trivian Sutra with an experimental contemplative reference interface"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Sarasha Elion" }]
+keywords = ["relational-ai", "contemplative", "human-ai", "trivian", "sutra"]
+
+[tool.setuptools]
+py-modules = ["trivian_protocol"]
